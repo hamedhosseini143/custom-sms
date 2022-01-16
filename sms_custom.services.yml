@@ -1,0 +1,7 @@
+services:
+  sms_custom.smshttp:
+    class: Drupal\sms_custom\SmsHttpService
+    arguments: []
+  sms_custom.smsframwork:
+    class: Drupal\sms_custom\SmsFramworkService
+    arguments: []
